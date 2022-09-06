@@ -3,9 +3,9 @@
 
 ## Table of Contents
 * [Problem Statement](#problem-statement)
-* [Business Objective](#business-objective)
-* [Results Expected](#results-expected)
-* [Insights](#insights)
+* [Business Objective](#Business-objectives)
+* [Approach Used](#Approach-used)
+* [Observations & Results](#observations-&-results)
 
 
 
@@ -27,7 +27,7 @@ When a person applies for a loan, there are **two types of decisions** that coul
 2. **Loan rejected**: The company had rejected the loan (because the candidate does not meet their requirements etc.). Since the loan was rejected, there is no transactional history of those applicants with the company and so this data is not available with the company (and thus in this dataset)
 
 
-### Business Objectives
+## Business Objectives
 This company is the largest online loan marketplace, facilitating personal loans, business loans, and financing of medical procedures. Borrowers can easily access lower interest rate loans through a fast online interface. 
 
 Like most other lending companies, lending loans to ‘risky’ applicants is the largest source of financial loss (called credit loss). The credit loss is the amount of money lost by the lender when the borrower refuses to pay or runs away with the money owed. In other words, borrowers who **default** cause the largest amount of loss to the lenders. In this case, the customers labelled as 'charged-off' are the 'defaulters'. 
@@ -36,24 +36,22 @@ If one is able to identify these risky loan applicants, then such loans can be r
 
 In other words, the company wants to understand the **driving factors (or driver variables)** behind loan default, i.e. the variables which are strong indicators of default.  The company can utilise this knowledge for its portfolio and risk assessment. 
 
-To develop your understanding of the domain, you are advised to independently research a little about risk analytics (understanding the types of variables and their significance should be enough).
+
+## Approach Used
+- Understanding the data.
+- Perform the Data Cleaning.
+- Perform the Univariate Analysis for insights on Distribution of feature Variables.
+- Perform the Bivariate Analysis to explores the association between two variables.
+- Visualize the patterns between the Variables.
+- Observed the driving factors behind loan Default.   
 
 
-## Results Expected
-- Write all your code in one well-commented Python file; briefly mention the insights and observations from the analysis 
-- Present the overall approach of the analysis in a presentation: 
-- Mention the problem statement and the analysis approach briefly 
-- Explain the results of univariate, bivariate analysis etc. in business terms
-- Include visualisations and summarise the most important results in the presentation
- 
-
-## Insights
+## Observations & Results
 - If Applicant's annual income is less than 20,000 with grade F5,G2,G3 and employment length is more than 10 years then he is most likely to be charged off.
 - If Applicant's Home is rented or mortgaged, his purpose of loan is small business and term of repayment is more or equal to 60 months, he/she is most likely to be charged off.
 - If loan amount is more than 28000 and interest rate kept is 16 then he is most likely be charged off.
 
 
 ## Contact
-Created by [@SajagChauhan] and [@HansaMeghwani] - feel free to contact me!
-
+Created by [@SajagChauhan] and [@hansa15100] - feel free to contact me!
 
